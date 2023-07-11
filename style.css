@@ -1,0 +1,129 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+  font-size: 70px;
+  font-family: Arial;
+  color: white;
+  border: 2px dotted black;
+  border-radius: 15px;
+  text-shadow: 10px 10px 15px black, 6px 6px 0px green;
+}
+
+main{
+  background-image: linear-gradient(white,lightgreen);
+}
+
+p{
+  text-align: left;
+  font-size: 20px;
+  font-family: Times New Roman;
+  color: black;
+}
+
+span{
+  color: green;
+}
+
+main p{
+  text-align: left;
+  font-size: 17px;
+  font-family: Times New Roman;
+  color: black;
+}
+
+h2{
+  text-align: left;
+  font-size: 30px;
+  font-family: Arial;
+  color: white;
+  text-shadow: 10px 10px 15px black;
+}
+
+
+ol{
+  font-family: Times New Roman;
+  font-size: 20px ;
+  color: black ;
+  border: 2px dotted black;
+  border-radius: 15px;
+  width: 300px
+}
+
+h3{
+  text-align: left;
+  font-size: 30px;
+  font-family: Arial;
+  color: white;
+  text-shadow: 10px 10px 15px black;
+}
+
+ul{
+  list-style: url("");
+  font-family: Times New Roman;
+  font-size: 20px ;
+  color: black ;
+  border: 2px dotted black;
+  border-radius: 15px;
+  width: 300px;
+}
+
+li::before{
+  display:block; 
+  border-radius: 15px;
+  content: ' ';  
+  background:url("https://static.vecteezy.com/system/resources/thumbnails/001/339/864/small/cute-welsh-corgi-puppy-paws-up-over-wall-vector.jpg");
+  background-size:contain;  
+  
+  height: 50px;
+  width: 50px;
+}
+
+li:hover::before{
+  box-shadow: 10px 10px 15px black;
+  transition: 2s linear
+}
+
+a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 15px;
+  background-image: linear-gradient(to right,white,lightgreen);
+  color: black;
+}
+a:hover{
+  border-radius: 10px;
+  background-image: linear-gradient(to right,black,lightgreen);
+  color: white;
+}
+  
+table{
+  border: 2px dotted black;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td{
+  border: 2px dotted black;
+}
+
+img{
+  opacity: 0.3;
+  box-shadow: 10px 10px 15px black;
+  border-radius: 15px;
+}
+
+img:hover{
+  opacity: 1;
+  transform: translateX(200px) ;
+  transition: all 2s ease-in;  
+}
+
+footer img{
+  border: 2px dotted black;
+  border-radius: 15px;
+  width: 313px;
+}
